@@ -1,0 +1,20 @@
+[project]
+name = "topdeskpy"
+version = "0.1.0"
+description = "A Python client for TOPdesk API."
+authors = [
+    { name = "Your Name", email = "david.sanftenberg@gmail.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/dbsanfte/TOPdeskPy"
+
+[tool.setuptools]
+packages = ["TOPdeskPy"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
